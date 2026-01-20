@@ -77,11 +77,17 @@ body{
 }
 
 .banner-content{
-    max-height: 558px;
+    color: rgba(255, 255, 255, 1);
+    min-height: 400px;
     width: 550px;
-    height: 558px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 101px 525px;
+    gap: 15px;
+    margin-top: 50px;
     
 }
 .hero-mic{
