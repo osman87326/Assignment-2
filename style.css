@@ -208,6 +208,7 @@ hr{
     font-size: 1rem;
     opacity: 60%;
 }
+/* Choose section styles */
 .choose{
     max-width: 1600px;
     width: 1600px;
@@ -265,6 +266,46 @@ hr{
 .resource-box, .interview-box, .colum-span2{
     padding: 40px 40px;
 }
+
+/* Features Section styles */
+.features{
+    max-height: 1276px;
+    height: 1276px;
+    border: 1px solid #00FF88;
+    background-color: #1A0B2E;
+    
+    
+}
+.feature-content{
+    width: 1200px;
+    height: 538px;
+    display: grid;
+    place-items: center;
+    
+
+}
+.feature-card{
+    border: 1px solid #00FF88;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* gap: 40px; */
+    gap: 40px;
+}
+.video-content{
+    max-width: 380px;
+    width: 380px;
+    max-height: 440px;
+    height: 440px;
+    border: 1px solid #FFFFFF;
+    
+
+    /* controls=0: Hides the play/pause, volume, and progress bar.
+modestbranding=1: Hides the YouTube logo in the control bar (if controls are visible).
+rel=0: Stops related videos from showing at the end (or shows only from the same channel).
+showinfo=0: Hides video title and uploader (often removed with controls=0 anyway) */
+}
+
+
 
 
     
