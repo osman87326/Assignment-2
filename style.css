@@ -13,6 +13,7 @@
     padding: 0;
 }
 .width{
+    max-width: 1600px;
     width: 1600px;
 }
 body{
@@ -52,6 +53,7 @@ body{
 .nav-item {
     list-style: none;
     padding-right: 32px;
+    
 
 }
 .nav-link{
@@ -146,6 +148,124 @@ body{
     padding: 15.5px 16px 15.5px 4px;
 
 }
+
+/* about section related styles */
+.about{
+    max-height: 648px;
+    height: 648px;
+    background-color: #1A0B2E;
+}
+.about-content{
+    max-width: 1200px;
+    width: 1200px;
+    text-align: center;
+    padding: 50px 200px 80px;    
+}
+.about-content h2{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 16px;
+
+}
+.about-content p{
+    line-height: 35px;
+    opacity: 80%;
+}
+
+hr{
+    width: 1200px;
+    opacity: 10%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-card{
+    max-width: 1200px;
+    width: 1200px;
+    max-height: 94px;
+    height: 94px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 80px;
+    
+    padding: 80px 200px 0px;
+    
+}
+.about-card .card{
+    
+    width: 240px;
+    height: 94px;
+    text-align: center;
+    
+    
+}
+.card h3{
+    font-size: 3rem;
+    font-weight:900;
+    padding-bottom: 16px;
+}
+.card h4{
+    font-size: 1rem;
+    opacity: 60%;
+}
+.choose{
+    max-width: 1600px;
+    width: 1600px;
+    max-height: 1180px;
+    height: 1180px;
+    background-color: #230E3D;
+    
+}
+.choose-title{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 2rem;
+}
+.choose-box{
+    max-width: 1200px;
+    max-height: 783px;
+    width: 1200px;
+    height: 783px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px 200px 0;
+}
+.choose-box h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.choose-box p{
+    opacity: 60%;
+}
+.box{
+    
+    border-radius: 40px;
+    
+    background-color: rgba(56, 17, 101, 0.4) ; 
+}
+.box img{
+    padding-top: 40px;
+}
+.box h3, .box p{
+    padding-top: 16px;
+}
+.audio-box{
+    grid-row: span 2;
+    padding: 107.5px 40px 0 ;
+
+}
+.colum-span2{
+    grid-column: span 2;
+}
+.interview-box{
+    grid-column: span 2;
+}
+.resource-box, .interview-box, .colum-span2{
+    padding: 40px 40px;
+}
+
 
     
     
